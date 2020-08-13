@@ -1,0 +1,21 @@
+CREATE DATABASE klubydb;
+CREATE TABLE kluby(
+id VARCHAR(5) PRIMARY KEY,
+rok INT);
+
+CREATE TABLE mistrzowie(
+id VARCHAR(5) PRIMARY KEY,
+rok INT);
+
+CREATE TABLE sedziowie(
+id VARCHAR(5),
+IMIE VARCHAR(20),
+NAZWISKO VARCHAR(20));
+
+CREATE TABLE mecze(
+id VARCHAR(5),
+
+
+
+
+
